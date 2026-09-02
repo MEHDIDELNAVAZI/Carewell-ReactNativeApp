@@ -1,0 +1,345 @@
+{
+  "Completed": "Abgeschlossen",
+  "Done": "Erledigt",
+  "Pending": "Ausstehend",
+  "Fill in": "Ausfüllen",
+  "Todays Mission": "Heutige Missionen",
+  "Nothing scheduled for today": "Heute nichts geplant",
+  "Today ({{totalItems}})": "Heute ({{totalItems}})",
+  "Retry": "Wiederholen",
+  "Failed to load data": "Daten konnten nicht geladen werden",
+  "Welcome": "Willkommen",
+  "questions": "Fragen",
+  "Completed · {{time}}": "Abgeschlossen · {{time}}",
+  "Due {{date}}": "Fällig {{date}}",
+  "Completed · {{date}}": "Abgeschlossen · {{date}}",
+  "Good Morning": "Guten Morgen",
+  "Good Afternoon": "Guten Tag",
+  "Good Evening": "Guten Abend",
+  "No recent messages": "Keine aktuellen Nachrichten",
+  "Error": "Fehler",
+  "Failed to load tickets": "Tickets konnten nicht geladen werden",
+  "Failed to create new conversation": "Neue Unterhaltung konnte nicht erstellt werden",
+  "Active": "Aktiv",
+  "Resolved": "Gelöst",
+  "Just now": "Gerade eben",
+  "{{minutes}}m ago": "vor {{minutes}} Min.",
+  "{{hours}}h ago": "vor {{hours}} Std.",
+  "Chat with Coach": "Mit Coach chatten",
+  "{{count}} new": "{{count}} neu",
+  "No Coaching Messages": "Keine Coaching-Nachrichten",
+  "Connect with your coach to start your wellness journey": "Verbinde dich mit deinem Coach, um deine Wellness-Reise zu beginnen",
+  "Start New Conversation": "Neue Unterhaltung starten",
+  "All Messages": "Alle Nachrichten",
+  "All Conversations": "Alle Unterhaltungen",
+  "Steps": "Schritte",
+  "steps": "Schritte",
+  "Low": "Niedrig",
+  "Heart rate": "Herzfrequenz",
+  "Average BPM": "Durchschnittliche BPM",
+  "Steady": "Stabil",
+  "Well rested": "Ausgeruht",
+  "Moderate": "Mäßig",
+  "Sleep": "Schlaf",
+  "Summary": "Übersicht",
+  "Log Out": "Abmelden",
+  "Logging out...": "Wird abgemeldet...",
+  "Are you sure you want to log out?": "Möchten Sie sich wirklich abmelden?",
+  "dailyWellnessScore": "TÄGLICHER\nWOHLBEFINDLICHKEITS-\nSCORE",
+
+  "Cancel": "Abbrechen",
+
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "loading": "Wird geladen...",
+    "error": "Etwas ist schiefgelaufen",
+    "later": "Später"
+  },
+  "home": {
+    "title": "Startseite",
+    "todayTasks": "Heutige Aufgaben",
+    "wellnessScore": "Wellness-Score"
+  },
+  "update": {
+    "title": "Update verfügbar",
+    "versionAvailable": "Version {{version}} ist jetzt verfügbar",
+    "updateOnAppStore": "Im App Store aktualisieren",
+    "downloadAndInstall": "Herunterladen & Installieren"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "email": "E-Mail",
+    "password": "Passwort"
+  },
+  "loginScreen": {
+    "appTagline": "Ihr persönlicher Gesundheitsbegleiter",
+    "signIn": "Anmelden",
+    "createAccount": "Konto erstellen",
+    "welcomeBack": "Willkommen zurück",
+    "joinCareWell": "CareWell beitreten",
+    "signInSubtitle": "Melden Sie sich an, um fortzufahren",
+    "signUpSubtitle": "Beginnen Sie noch heute mit gesünderen Gewohnheiten",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "sie@krankenhaus.de",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "••••••••",
+    "forgotPassword": "Passwort vergessen?",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "confirmPasswordLabel": "Passwort bestätigen",
+    "confirmPasswordPlaceholder": "••••••••",
+    "passwordsDontMatch": "Passwörter stimmen nicht überein",
+    "dateOfBirth": "Geburtsdatum",
+    "selectDateOfBirth": "Geburtsdatum auswählen",
+    "gender": "Geschlecht",
+    "selectGender": "Geschlecht auswählen",
+    "department": "Abteilung",
+    "selectDepartment": "Abteilung auswählen",
+    "workShift": "Schicht",
+    "selectWorkShift": "Schicht auswählen",
+    "orContinueWith": "oder fortfahren mit",
+    "noAccount": "Noch kein Konto? ",
+    "haveAccount": "Bereits ein Konto? ",
+    "signUp": "Registrieren",
+    "signInLink": "Anmelden",
+    "fieldRequired": "{{field}} ist erforderlich",
+    "genderOptions": {
+      "male": "Männlich",
+      "female": "Weiblich",
+      "other": "Divers"
+    },
+    "shiftOptions": {
+      "day": "Tagschicht",
+      "morningAfternoon": "Frühschicht + Spätschicht",
+      "night": "Nachtschicht",
+      "other": "Andere"
+    }
+  },
+  "See all {{totalItems}} items": "Alle {{totalItems}} anzeigen",
+  "Today {{totalItems}}": "Heute {{totalItems}}",
+  "Completed {{time}}": "Abgeschlossen {{time}}",
+  "Fatigue Screen": "Ermüdungsbildschirm",
+  "PhysioEye": "PhysioEye",
+  "Nothing here yet — this feature is coming soon!": "Noch nichts hier — diese Funktion kommt bald!",
+  "Vitals": "Vitalwerte",
+  "Vital Signs": "Vitalwerte",
+  "AVG HEART RATE": "AVG HERZFREQUENZ",
+  "MIN HEART RATE": "MIN HERZFREQUENZ",
+  "MAX HEART RATE": "MAX HERZFREQUENZ",
+  "OXYGEN LEVEL": "SAUERSTOFFWERT",
+  "weeklyActivity": {
+    "title": "Aktivität dieser Woche",
+    "avgStepsPerDay": "Avg {{avg}} Schritte/Tag",
+    "goal": "Ziel: {{goal}}"
+  },
+  "sleepQuality": {
+    "title": "Schlafqualität",
+    "goal": "Ziel: {{hours}} Stunden",
+    "minutes": "{{count}} Min.",
+    "score": {
+      "excellent": "Ausgezeichnet",
+      "good": "Gut",
+      "average": "Durchschnittlich",
+      "poor": "Schlecht"
+    },
+    "stages": {
+      "deep": "Tiefschlaf",
+      "rem": "REM-Schlaf",
+      "light": "Leichter Schlaf",
+      "awake": "Wach"
+    }
+  },
+  "header": {
+    "title": "Gesundheitsübersicht",
+    "subtitle": "Ihr persönliches Gesundheits-Dashboard – Aktualisierung: Täglich"
+  },
+  "scoreBreakdown": {
+    "title": "Punkteübersicht"
+  },
+  "profileHeroCard": {
+    "totalPoints": "Gesamtpunkte",
+    "achievements": "Erfolge",
+    "journey": "Reise",
+    "monthValue": "Monat {{month}}",
+    "currentStage": "Stufe",
+    "uploadErrorTitle": "Upload fehlgeschlagen",
+    "uploadErrorGeneric": "Avatar konnte nicht hochgeladen werden. Bitte versuche es erneut."
+  },
+  "wellnessJourney": {
+    "title": "Wellness-Reise",
+    "monthLabel": "Monat {{month}} — ",
+    "progressLabel": "Fortschritt der Reise"
+  },
+  "programsScreen": {
+    "title": "Missionen",
+    "loading": "Missionen werden geladen...",
+    "noPrograms": "Es wurden noch keine Missionen zugewiesen.",
+    "errorTitle": "Fehler",
+    "loadError": "Die Missionen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "programCount": "{{count}} Missionen"
+  },
+  "learnScreen": {
+    "title": "Lernen",
+    "subtitle": "Nachhaltiges Wellness-Wissen aufbauen",
+    "library": "Bibliothek",
+    "loading": "Lektionen werden geladen...",
+    "noLessons": "Keine Lektionen verfügbar.",
+    "errorTitle": "Fehler",
+    "loadError": "Lektionen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "completeError": "Lektion konnte nicht als abgeschlossen markiert werden. Bitte versuchen Sie es erneut."
+  },
+
+  "profileScreen": {
+    "title": "Profil",
+    "shiftSuffix": "{{shift}}-Schicht",
+    "journey": {
+      "month1": {
+        "name": "Bewusstsein",
+        "description": "Haltung & Ermüdung verstehen"
+      },
+      "month2": {
+        "name": "Grundlage",
+        "description": "Gesunde Gewohnheiten aufbauen"
+      },
+      "month3": { "name": "Schwung", "description": "Deine Routine stärken" },
+      "month4": { "name": "Beständigkeit", "description": "Am Ball bleiben" },
+      "month5": {
+        "name": "Leistung",
+        "description": "Dein Wohlbefinden optimieren"
+      },
+      "month6": {
+        "name": "Meisterschaft",
+        "description": "Langfristige Gesundheit erhalten"
+      }
+    },
+    "scores": {
+      "programsPoints": "Missionspunkte",
+      "learnsPoints": "Lern-Punkte",
+      "formsPoints": "Formular-Punkte",
+      "totalEarned": "Gesamt verdient"
+    },
+    "achievements": {
+      "stretchStreak": "7-Tage-Dehnserie",
+      "postureImprover": "Haltungsverbesserer",
+      "hydrationHero": "Hydrations-Held",
+      "recoveryMaster": "Erholungsmeister",
+      "sleepOptimizer": "Schlafoptimierer",
+      "wellnessConsistent": "Wellness-Beständigkeit"
+    },
+    "streaks": {
+      "stretching": "Dehnen",
+      "hydration": "Flüssigkeitszufuhr",
+      "sleep": "Schlaf",
+      "steps": "Schritte"
+    },
+
+    "settings": {
+      "wellnessGroup": "Wellness",
+      "myGoals": "Meine Ziele",
+      "reminders": "Erinnerungen",
+      "linkedDevices": "Verknüpfte Geräte",
+      "accountGroup": "Konto",
+      "personalInfo": "Persönliche Angaben",
+      "privacySettings": "Datenschutzeinstellungen",
+      "supportFaq": "Support & FAQ"
+    }
+  },
+  "communityScreen": {
+    "title": "Community",
+    "subtitle": "Gemeinsam ein gesünderes Team aufbauen",
+    "rankings": "Rangliste",
+    "activeChallenges": "Aktive Herausforderungen",
+    "retry": "Wiederholen",
+    "loadError": "Rangliste konnte nicht geladen werden"
+  },
+  "communityTabs": {
+    "leaderboard": "Rangliste",
+    "teamChallenges": "Team-Herausforderungen"
+  },
+  "myProfileCard": {
+    "rank": "Rang",
+    "points": "Punkte",
+    "dayStreak": "Tage-Serie"
+  },
+  "learnFilterTabs": {
+    "all": "Alle",
+    "posture": "Haltung",
+    "ergonomics": "Ergonomie",
+    "recovery": "Erholung",
+    "nutrition": "Ernährung",
+    "stress": "Stress"
+  },
+  "learnDetailSheet": {
+    "types": {
+      "video": "Video",
+      "article": "Artikel",
+      "micro": "Kurzlektion",
+      "quiz": "Quiz"
+    },
+    "categories": {
+      "musculoskeletal": "Bewegungsapparat",
+      "ergonomics": "Ergonomie",
+      "sleep": "Schlaf",
+      "nutrition": "Ernährung",
+      "stress": "Stress"
+    },
+    "duration": "Dauer",
+    "durationMinutes": "{{minutes}} Min.",
+    "reward": "Belohnung",
+    "rewardXp": "{{points}} XP",
+    "completionRate": "Abschlussquote",
+    "views": "Aufrufe",
+    "deadline": "Frist",
+    "expired": "Abgelaufen",
+    "daysHoursLeft": "Noch {{days}} T. {{hours}} Std.",
+    "hoursLeft": "Noch {{hours}} Std.",
+    "content": "Inhalt",
+    "completedLabel": "✓ Abgeschlossen",
+    "deadlinePassed": "Frist abgelaufen",
+    "saving": "Wird gespeichert...",
+    "markComplete": "Als abgeschlossen markieren · +{{points}} XP"
+  },
+  "programFilterTabs": {
+    "all": "Alle",
+    "corrective": "Korrektiv",
+    "recovery": "Erholung",
+    "strength": "Kraft"
+  },
+  "programDetailSheet": {
+    "types": {
+      "corrective": "Korrektiv",
+      "strength": "Kraft",
+      "lifestyle": "Lebensstil",
+      "general": "Allgemein"
+    },
+    "statuses": {
+      "active": "Aktiv",
+      "paused": "Pausiert",
+      "completed": "Abgeschlossen"
+    },
+    "today": "Heute",
+    "instruction": "Anleitung",
+    "target": "Ziel",
+    "sessionsDone": "Sitzungen abgeschlossen",
+    "points": "Punkte",
+    "status": "Status",
+    "upcomingSessions": "Bevorstehende Sitzungen",
+    "noUpcomingSessions": "Keine bevorstehenden Sitzungen",
+    "notes": "Notizen",
+    "video": "Video",
+    "openVideoLink": "Video-Link öffnen",
+    "completionQuestion": "Haben Sie die heutige Sitzung abgeschlossen?",
+    "completedLabel": "✓ Abgeschlossen",
+    "notScheduledToday": "Heute nicht geplant",
+    "saving": "Wird gespeichert...",
+    "yesIHave": "Ja, habe ich"
+  },
+  "departments": {
+    "upperManagement": "Oberes Management",
+    "supportServices": "Unterstützende Dienste",
+    "middleManagement": "Mittleres Management",
+    "nursingAndCareStaff": "Pflege- und Betreuungskräfte",
+    "other": "Andere"
+  }
+}

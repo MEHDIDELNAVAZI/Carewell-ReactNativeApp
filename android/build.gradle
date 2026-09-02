@@ -1,0 +1,37 @@
+buildscript {
+    ext {
+        buildToolsVersion = "36.0.0"
+        minSdkVersion = 26
+        compileSdkVersion = 36
+        targetSdkVersion = 36
+        kotlinVersion = "2.1.20"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
+
+allprojects {
+    configurations.all {
+        resolutionStrategy {
+            force 'androidx.lifecycle:lifecycle-runtime:2.6.2'
+            force 'androidx.lifecycle:lifecycle-common:2.6.2'
+            force 'androidx.lifecycle:lifecycle-process:2.6.2'
+            force 'androidx.lifecycle:lifecycle-viewmodel:2.6.2'
+            force 'androidx.lifecycle:lifecycle-livedata:2.6.2'
+            force 'androidx.lifecycle:lifecycle-livedata-core:2.6.2'
+            force 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2'
+            force 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
+        }
+        exclude group: 'androidx.lifecycle', module: 'lifecycle-service'
+        exclude group: 'androidx.lifecycle', module: 'lifecycle-extensions'
+    }
+}

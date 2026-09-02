@@ -1,0 +1,27 @@
+const colors = {
+  primary: '#2d6a4f',
+  primaryLight: '#52b788',
+  primaryDark: '#1b4332',
+  accent: '#e76f51',
+  background: '#f8f9fa',
+  white: '#ffffff',
+  black: '#000000',
+  gray100: '#f8f9fa',
+  gray150: '#e8ecea5e',
+  gray200: '#e9ecef',
+  gray300: '#dee2e6',
+  gray400: '#ced4da',
+  gray500: '#adb5bd',
+  gray600: '#6c757d',
+  gray700: '#495057',
+  gray800: '#343a40',
+  textPrimary: '#1a1a2e',
+  textSecondary: '#6c757d',
+  textLight: '#adb5bd',
+  success: '#52b788',
+  warning: '#f4a261',
+  cardBg: '#ffffff',
+  greenCard: '#2d6a4f',
+};
+
+export default colors;

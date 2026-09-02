@@ -1,0 +1,350 @@
+{
+  "Completed": "Completed",
+  "Done": "Done",
+  "Pending": "Pending",
+  "Fill in": "Fill in",
+  "Todays Mission": "Today's Missions",
+  "Nothing scheduled for today": "Nothing scheduled for today",
+  "See all {{totalItems}} items": "See all {{totalItems}} items",
+  "Today ({{totalItems}})": "Today ({{totalItems}})",
+  "Retry": "Retry",
+  "Failed to load data": "Failed to load data",
+  "Welcome": "Welcome",
+  "questions": "questions",
+  "Completed · {{time}}": "Completed · {{time}}",
+  "Due {{date}}": "Due {{date}}",
+  "Completed · {{date}}": "Completed · {{date}}",
+  "Good Morning": "Good Morning",
+  "Good Afternoon": "Good Afternoon",
+  "Good Evening": "Good Evening",
+  "No recent messages": "No recent messages",
+  "Error": "Error",
+  "Failed to load tickets": "Failed to load tickets",
+  "Failed to create new conversation": "Failed to create new conversation",
+  "Active": "Active",
+  "Resolved": "Resolved",
+  "Just now": "Just now",
+  "{{minutes}}m ago": "{{minutes}}m ago",
+  "{{hours}}h ago": "{{hours}}h ago",
+  "Chat with Coach": "Chat with Coach",
+  "{{count}} new": "{{count}} new",
+  "No Coaching Messages": "No Coaching Messages",
+  "Connect with your coach to start your wellness journey": "Connect with your coach to start your wellness journey",
+  "Start New Conversation": "Start New Conversation",
+  "All Messages": "All Messages",
+  "All Conversations": "All Conversations",
+  "No conversations yet": "No conversations yet",
+  "Steps": "Steps",
+  "steps": "steps",
+  "Low": "Low",
+  "Heart rate": "Heart rate",
+  "Average BPM": "Average BPM",
+  "Steady": "Steady",
+  "Well rested": "Well rested",
+  "Moderate": "Moderate",
+  "Sleep": "Sleep",
+  "Summary": "Summary",
+  "Log Out": "Log Out",
+  "Logging out...": "Logging out...",
+  "Are you sure you want to log out?": "Are you sure you want to log out?",
+  "dailyWellnessScore": "DAILY WELLNESS\nSCORE",
+
+  "Cancel": "Cancel",
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "later": "Later"
+  },
+  "home": {
+    "title": "Home",
+    "todayTasks": "Today's Tasks",
+    "wellnessScore": "Wellness Score"
+  },
+  "update": {
+    "title": "Update Available",
+    "versionAvailable": "Version {{version}} is now available",
+    "updateOnAppStore": "Update on App Store",
+    "downloadAndInstall": "Download & Install"
+  },
+  "auth": {
+    "login": "Log In",
+    "email": "Email",
+    "password": "Password"
+  },
+  "loginScreen": {
+    "appTagline": "Your personal health companion",
+    "signIn": "Sign In",
+    "createAccount": "Create Account",
+    "welcomeBack": "Welcome back",
+    "joinCareWell": "Join CareWell",
+    "signInSubtitle": "Sign in to continue your wellness journey",
+    "signUpSubtitle": "Start building healthier habits today",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@hospital.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "forgotPassword": "Forgot password?",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "••••••••",
+    "passwordsDontMatch": "Passwords don't match",
+    "dateOfBirth": "Date of Birth",
+    "selectDateOfBirth": "Select date of birth",
+    "gender": "Gender",
+    "selectGender": "Select gender",
+    "department": "Department",
+    "selectDepartment": "Select department",
+    "workShift": "Work Shift",
+    "selectWorkShift": "Select work shift",
+    "orContinueWith": "or continue with",
+    "noAccount": "Don't have an account? ",
+    "haveAccount": "Already have an account? ",
+    "signUp": "Sign up",
+    "signInLink": "Sign in",
+    "fieldRequired": "{{field}} is required",
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "shiftOptions": {
+      "day": "Day shift",
+      "morningAfternoon": "Morning shift + Afternoon shift",
+      "night": "Night shift",
+      "other": "Other"
+    }
+  },
+  "See all {totalItems} items": "See all {totalItems} items",
+  "Today ({totalItems})": "Today ({totalItems})",
+  "Completed · {time}": "Completed · {time}",
+  "Due {date}": "Due {date}",
+  "Completed · {date}": "Completed · {date}",
+  "Fatigue Screen": "Fatigue Screen",
+  "PhysioEye": "PhysioEye",
+  "Nothing here yet — this feature is coming soon!": "Nothing here yet — this feature is coming soon!",
+  "Vitals": "Vitals",
+  "Vital Signs": "Vital Signs",
+  "AVG HEART RATE": "AVG HEART RATE",
+  "MIN HEART RATE": "MIN HEART RATE",
+  "MAX HEART RATE": "MAX HEART RATE",
+  "OXYGEN LEVEL": "OXYGEN LEVEL",
+  "weeklyActivity": {
+    "title": "This Week's Activity",
+    "avgStepsPerDay": "Avg {{avg}} steps/day",
+    "goal": "Goal: {{goal}}"
+  },
+
+  "sleepQuality": {
+    "title": "Sleep Quality",
+    "goal": "Goal: {{hours}} hours",
+    "minutes": "{{count}} min",
+    "score": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "average": "Average",
+      "poor": "Poor"
+    },
+    "stages": {
+      "deep": "Deep Sleep",
+      "rem": "REM Sleep",
+      "light": "Light Sleep",
+      "awake": "Awake"
+    }
+  },
+  "header": {
+    "title": "Health Overview",
+    "subtitle": "Your personal health dashboard - Update: Daily"
+  },
+  "programsScreen": {
+    "title": "Missions",
+    "loading": "Loading missions...",
+    "noPrograms": "No missions assigned yet.",
+    "errorTitle": "Error",
+    "loadError": "Failed to load missions. Please try again later.",
+    "programCount": "{{count}} missions"
+  },
+  "learnScreen": {
+    "title": "Learning",
+    "subtitle": "Build lasting wellness knowledge",
+    "library": "Library",
+    "loading": "Loading lessons...",
+    "noLessons": "No lessons available.",
+    "errorTitle": "Error",
+    "loadError": "Failed to load lessons. Please try again later.",
+    "completeError": "Failed to mark lesson as complete. Please try again."
+  },
+  "communityScreen": {
+    "title": "Community",
+    "subtitle": "Building a healthier team together",
+    "rankings": "Rankings",
+    "activeChallenges": "Active Challenges",
+    "retry": "Retry",
+    "loadError": "Failed to load leaderboard"
+  },
+  "profileScreen": {
+    "title": "Profile",
+    "shiftSuffix": "{{shift}} shift",
+    "journey": {
+      "month1": {
+        "name": "Awareness",
+        "description": "Understanding posture & fatigue"
+      },
+      "month2": {
+        "name": "Foundation",
+        "description": "Building healthy habits"
+      },
+      "month3": {
+        "name": "Momentum",
+        "description": "Strengthening your routine"
+      },
+      "month4": { "name": "Consistency", "description": "Staying on track" },
+      "month5": {
+        "name": "Performance",
+        "description": "Optimising your wellness"
+      },
+      "month6": {
+        "name": "Mastery",
+        "description": "Sustaining long-term health"
+      }
+    },
+    "scores": {
+      "programsPoints": "Missions Points",
+      "learnsPoints": "Learns Points",
+      "formsPoints": "Forms Points",
+      "totalEarned": "Total Earned"
+    },
+    "achievements": {
+      "stretchStreak": "7-Day Stretch Streak",
+      "postureImprover": "Posture Improver",
+      "hydrationHero": "Hydration Hero",
+      "recoveryMaster": "Recovery Master",
+      "sleepOptimizer": "Sleep Optimizer",
+      "wellnessConsistent": "Wellness Consistent"
+    },
+    "streaks": {
+      "stretching": "Stretching",
+      "hydration": "Hydration",
+      "sleep": "Sleep",
+      "steps": "Steps"
+    },
+    "settings": {
+      "wellnessGroup": "Wellness",
+      "myGoals": "My Goals",
+      "reminders": "Reminders",
+      "linkedDevices": "Linked Devices",
+      "accountGroup": "Account",
+      "personalInfo": "Personal Info",
+      "privacySettings": "Privacy Settings",
+      "supportFaq": "Support & FAQ"
+    }
+  },
+  "profileHeroCard": {
+    "totalPoints": "Total Points",
+    "achievements": "Achievements",
+    "journey": "Journey",
+    "monthValue": "Month {{month}}",
+    "currentStage": "Stage",
+    "uploadErrorTitle": "Upload Failed",
+    "uploadErrorGeneric": "Could not upload avatar. Please try again."
+  },
+  "wellnessJourney": {
+    "title": "Wellness Journey",
+    "monthLabel": "Month {{month}} — ",
+    "progressLabel": "Journey Progress"
+  },
+  "scoreBreakdown": {
+    "title": "Score Breakdown"
+  },
+  "communityTabs": {
+    "leaderboard": "Leaderboard",
+    "teamChallenges": "Team Challenges"
+  },
+  "myProfileCard": {
+    "rank": "Rank",
+    "points": "Points",
+    "dayStreak": "Day Streak"
+  },
+  "learnFilterTabs": {
+    "all": "All",
+    "posture": "Posture",
+    "ergonomics": "Ergonomics",
+    "recovery": "Recovery",
+    "nutrition": "Nutrition",
+    "stress": "Stress"
+  },
+  "learnDetailSheet": {
+    "types": {
+      "video": "Video",
+      "article": "Article",
+      "micro": "Micro",
+      "quiz": "Quiz"
+    },
+    "categories": {
+      "musculoskeletal": "Musculoskeletal",
+      "ergonomics": "Ergonomics",
+      "sleep": "Sleep",
+      "nutrition": "Nutrition",
+      "stress": "Stress"
+    },
+    "duration": "Duration",
+    "durationMinutes": "{{minutes}} min",
+    "reward": "Reward",
+    "rewardXp": "{{points}} XP",
+    "completionRate": "Completion Rate",
+    "views": "Views",
+    "deadline": "Deadline",
+    "expired": "Expired",
+    "daysHoursLeft": "{{days}}d {{hours}}h left",
+    "hoursLeft": "{{hours}}h left",
+    "content": "Content",
+    "completedLabel": "✓ Completed",
+    "deadlinePassed": "Deadline Passed",
+    "saving": "Saving...",
+    "markComplete": "Mark as Complete · +{{points}} XP"
+  },
+  "programFilterTabs": {
+    "all": "All",
+    "corrective": "Corrective",
+    "recovery": "Recovery",
+    "strength": "Strength"
+  },
+  "programDetailSheet": {
+    "types": {
+      "corrective": "Corrective",
+      "strength": "Strength",
+      "lifestyle": "Lifestyle",
+      "general": "General"
+    },
+    "statuses": {
+      "active": "Active",
+      "paused": "Paused",
+      "completed": "Completed"
+    },
+    "today": "Today",
+    "instruction": "Instruction",
+    "target": "Target",
+    "sessionsDone": "Sessions Done",
+    "points": "Points",
+    "status": "Status",
+    "upcomingSessions": "Upcoming Sessions",
+    "noUpcomingSessions": "No Upcoming Sessions",
+    "notes": "Notes",
+    "video": "Video",
+    "openVideoLink": "Open Video Link",
+    "completionQuestion": "Have you completed today's session?",
+    "completedLabel": "✓ Completed",
+    "notScheduledToday": "Not scheduled today",
+    "saving": "Saving...",
+    "yesIHave": "Yes, I have"
+  },
+  "departments": {
+    "upperManagement": "Upper Management",
+    "supportServices": "Support Services",
+    "middleManagement": "Middle Management",
+    "nursingAndCareStaff": "Nursing and Care Staff",
+    "other": "Other"
+  }
+}
