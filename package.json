@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios ",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "ios:dev": "ENVFILE=.env.development npx react-native run-ios --mode Debug",
+    "ios:prod": "ENVFILE=.env.production npx react-native run-ios --mode Debug",
+    "android:dev": "ENVFILE=.env.development  npx react-native run-android",
+    "android:prod": "ENVFILE=.env.production  npx react-native run-android"
   },
   "dependencies": {
     "@d11/react-native-fast-image": "^8.13.0",
@@ -36,6 +40,7 @@
     "react-i18next": "^17.0.8",
     "react-native": "0.85.3",
     "react-native-background-fetch": "^4.4.2",
+    "react-native-config": "^1.7.2",
     "react-native-device-info": "^15.0.2",
     "react-native-fs": "^2.20.0",
     "react-native-gesture-handler": "^2.32.0",

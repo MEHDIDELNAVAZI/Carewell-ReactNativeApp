@@ -1444,6 +1444,30 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
+  - react-native-config (1.7.2):
+    - react-native-config/App (= 1.7.2)
+  - react-native-config/App (1.7.2):
+    - hermes-engine
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-Core-prebuilt
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - ReactNativeDependencies
+    - Yoga
   - react-native-image-picker (8.2.1):
     - hermes-engine
     - RCTRequired
@@ -2479,6 +2503,7 @@ DEPENDENCIES:
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - React-microtasksnativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/microtasks`)
   - React-mutationobservernativemodule (from `../node_modules/react-native/ReactCommon/react/nativemodule/mutationobserver`)
+  - react-native-config (from `../node_modules/react-native-config`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
   - react-native-pager-view (from `../node_modules/react-native-pager-view`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
@@ -2630,6 +2655,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/microtasks"
   React-mutationobservernativemodule:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/mutationobserver"
+  react-native-config:
+    :path: "../node_modules/react-native-config"
   react-native-image-picker:
     :path: "../node_modules/react-native-image-picker"
   react-native-pager-view:
@@ -2742,7 +2769,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   BVLinearGradient: cb006ba232a1f3e4f341bb62c42d1098c284da70
   FBLazyVector: 24e62c765683b8d89006a88a2c8f5cf019f0074d
-  hermes-engine: 2f6790c05471528a017c715985cd26e2b664267a
+  hermes-engine: 7512fbb16dd5647bcd9f8a23974a242b2d85e7cd
   libavif: 84bbb62fb232c3018d6f1bab79beea87e35de7b7
   libdav1d: 23581a4d8ec811ff171ed5e2e05cd27bad64c39f
   libwebp: af5937a13536ef73f3784d69cc342b98961acf33
@@ -2755,7 +2782,7 @@ SPEC CHECKSUMS:
   React: e2dc35338068bbd299c66f043ae0d7f25de8499e
   React-callinvoker: 28b25d21b124c26cebaea713ba7d801b9351dc48
   React-Core: 02ed7d2ffb70437bdf2aba074a13078a7b0b9ff0
-  React-Core-prebuilt: 13dc47067289fe49c2631c8bbf5d65ba4cc29eb0
+  React-Core-prebuilt: 7545f2674a81ff95836ad49112cea28fa814b6f3
   React-CoreModules: b3a5a42dadcde3b5d47b325bd912eb2ced89e146
   React-cxxreact: fe8f88dda044e5905e99a00f41b7a874c3908716
   React-debug: 92944dc4d89f56d640e75498266cbde557a48189
@@ -2784,6 +2811,7 @@ SPEC CHECKSUMS:
   React-Mapbuffer: fec3e025f0ffba6b32cd2a1d7bbdee3e269aae90
   React-microtasksnativemodule: ab33a818d339f5a1da308893c11b487be66121a8
   React-mutationobservernativemodule: a42d1626651ccd7d0dc02a56e69d4ec77c248893
+  react-native-config: e89a04d172d648811fc67a07b61434e35441b227
   react-native-image-picker: 23540feacc79c63c60857f318fdfa8477c26e70a
   react-native-pager-view: 9c96bfba63aff996c20295984d8a646272fb3301
   react-native-safe-area-context: 8368d1052ccc8fe8725adfb6a83498c8bdb48250
@@ -2821,7 +2849,7 @@ SPEC CHECKSUMS:
   ReactAppDependencyProvider: 25c9c516839be2c5e3d3344f95dc7da5f7e63fc2
   ReactCodegen: c8f81e6c6f762dcf442a6203a1fb58f7dafc8014
   ReactCommon: 7dfc3250793bf36cf221096ff59e1179e13eef7f
-  ReactNativeDependencies: a667636523577b86d2de7aeed54f450060ad50e1
+  ReactNativeDependencies: 1b99257ca87521046d8bb4385dfb2e54e85478ab
   ReactNativeHealthkit: af20857324ceab69398bfb08924bb136b77a70a4
   RNBackgroundFetch: 61beeb139b83290dd6e93185261404b3490f5564
   RNCAsyncStorage: 5e197bc83d4c08d6efb9d7620b7ad2c73dbc2414
@@ -2845,6 +2873,6 @@ SPEC CHECKSUMS:
   TSBackgroundFetch: 18918b6449a1e3f01eb0f5b44d6d79ce6160a5a5
   Yoga: 77dfa8673de2874e1855002ae59c68b8be9b007b
 
-PODFILE CHECKSUM: 2dbabae9d7611acf9d9f924db47b29e45b795980
+PODFILE CHECKSUM: d6bb870e3087f8d72514a9142ec4f5407b48e06b
 
 COCOAPODS: 1.16.2

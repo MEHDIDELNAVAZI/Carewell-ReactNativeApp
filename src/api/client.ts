@@ -1,10 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import { logout } from './auth';
+import Config from 'react-native-config';
 
 const api = axios.create({
-  // baseURL: 'http://192.168.0.144:8000/api',
-  baseURL: 'https://api.physioeye.de/api',
+  baseURL: `${Config.API_BASE_URL}/api`,
 });
 
 // ─── Request: attach access token ────────────────────────────────────────────
@@ -125,8 +125,7 @@ api.interceptors.response.use(
         console.log('[STEP 10] Sending refresh request...');
 
         const { data } = await axios.post(
-          // 'http://192.168.0.144:8000/api/users/token/refresh/',
-          'https://api.physioeye.de/api/users/token/refresh/',
+          `${Config.API_BASE_URL}/api/users/token/refresh/`,
           {
             refresh,
           },
