@@ -12,8 +12,6 @@ export default function Healthscreen() {
   const { t } = useTranslation();
   return (
     <SafeAreaView style={styles.safeArea} edges={['top']}>
-      <Header title={t('header.title')} subtitle={t('header.subtitle')} />
-
       {/* Navigator gets all remaining space */}
       <View style={{ flex: 1 }}>
         <Healthnavigator />

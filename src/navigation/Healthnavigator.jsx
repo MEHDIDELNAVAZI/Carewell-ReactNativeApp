@@ -6,6 +6,7 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 import { useTranslation } from 'react-i18next'; // ✅ ADD THIS
 import colors from '../theme/colors';
 import VitalSignesScreen from '../screens/Health/VitalSignesScreen';
+import PhysioScreen from '../screens/Health/PhysioScreen';
 
 function Fatigue() {
   const { t } = useTranslation(); // ✅ ADD THIS
@@ -153,12 +154,12 @@ export default function HealthNavigator() {
       <Tab.Screen
         name="Vitals"
         component={VitalSignesScreen}
-        options={{ title: t('Vitals') }} // ✅ ADDED
+        options={{ title: t('Vitals') }}
       />
       <Tab.Screen
         name="PhysioEye"
-        component={PhysioEye}
-        options={{ title: t('PhysioEye') }} // ✅ ADDED
+        component={PhysioScreen}
+        options={{ title: t('PhysioEye') }}
       />
     </Tab.Navigator>
   );

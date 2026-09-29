@@ -569,7 +569,7 @@ export default function LoginScreen() {
     setIsSubmitting(true);
     try {
       if (islogin) {
-        const res = await loginuser(email.trim(), password, 'staff');
+        const res = await loginuser(email.trim(), password, 'Carewelluser');
         await AsyncStorage.setItem('access', res.token.access);
         await AsyncStorage.setItem('refresh', res.token.refresh);
         await AsyncStorage.setItem('user', JSON.stringify(res.user));
@@ -580,7 +580,7 @@ export default function LoginScreen() {
           username: regEmail.trim(),
           email: regEmail.trim(),
           password: regPassword, // confirmPassword is never sent, client-side check only
-          role: 'staff',
+          role: 'Carewelluser',
           first_name: firstName,
           last_name: lastName,
           gender,

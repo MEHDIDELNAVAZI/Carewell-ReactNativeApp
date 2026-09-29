@@ -24,15 +24,27 @@ import {
 } from './src/services/notifications/notificationService';
 import { registerForegroundHandler } from './src/services/notifications/notificationEvents';
 import { navigationRef } from './src/navigation/navigationRef';
+import PostureDetailScreen from './src/screens/physioeye/MetricDetailScreen';
+import MetricDetailScreen from './src/screens/physioeye/MetricDetailScreen';
+import { MetricKey } from './src/components/physioeye';
 
 export type RootStackParamList = {
   Home: undefined;
   Login: undefined;
+
   Browser: {
     url: string;
   };
-  TicketDetail: { ticketId: number };
+
+  TicketDetail: {
+    ticketId: number;
+  };
+
   CreateTicket: undefined;
+
+  MetricDetail: {
+    metric: MetricKey;
+  };
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -76,6 +88,13 @@ function RootNavigator() {
           <>
             <Stack.Screen name="Home" component={AppNavigator} />
             <Stack.Screen name="Browser" component={BrowserScreen} />
+            <Stack.Screen
+              name="MetricDetail"
+              component={MetricDetailScreen}
+              options={{
+                headerShown: false,
+              }}
+            />
             <Stack.Screen
               name="TicketDetail"
               component={TicketDetail}
