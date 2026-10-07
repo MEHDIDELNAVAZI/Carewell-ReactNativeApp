@@ -1,9 +1,8 @@
-// api/authClient.ts
 import axios from 'axios';
+import Config from 'react-native-config';
 
 const authClient = axios.create({
-  baseURL: 'http://192.168.0.144:8000/api',
-  // baseURL: 'https://api.physioeye.de/api',
+  baseURL: `${Config.API_BASE_URL}/api`,
 });
 
 export default authClient;
