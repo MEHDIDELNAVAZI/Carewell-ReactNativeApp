@@ -2,10 +2,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import { logout } from './auth';
 import Config from 'react-native-config';
+import { Alert } from 'react-native';
 
 const api = axios.create({
-  baseURL: `${Config.API_BASE_URL}/api`,
+  // baseURL: `${Config.API_BASE_URL}/api`,
+  baseURL: 'https://staging.physioeye.de/api',
 });
+
+console.log('the api url is like this  : ', api);
 
 // ─── Request: attach access token ────────────────────────────────────────────
 api.interceptors.request.use(
@@ -25,7 +29,9 @@ api.interceptors.request.use(
     return config;
   },
   error => {
-    console.log('[REQUEST ERROR]', error);
+    console.log('FULL URL:', error.config?.baseURL, error.config?.url);
+    console.log('CODE:', error.code, 'MSG:', error.message);
+    console.log('API_BASE_URL =', Config.API_BASE_URL);
     return Promise.reject(error);
   },
 );

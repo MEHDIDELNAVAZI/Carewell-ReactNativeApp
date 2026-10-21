@@ -27,6 +27,7 @@ import { navigationRef } from './src/navigation/navigationRef';
 import PostureDetailScreen from './src/screens/physioeye/MetricDetailScreen';
 import MetricDetailScreen from './src/screens/physioeye/MetricDetailScreen';
 import { MetricKey } from './src/components/physioeye';
+import VideoPlayer from './src/screens/VideoPlayer';
 
 export type RootStackParamList = {
   Home: undefined;
@@ -44,6 +45,10 @@ export type RootStackParamList = {
 
   MetricDetail: {
     metric: MetricKey;
+  };
+  VideoPlayer: {
+    uri: string;
+    title?: string;
   };
 };
 
@@ -88,6 +93,7 @@ function RootNavigator() {
           <>
             <Stack.Screen name="Home" component={AppNavigator} />
             <Stack.Screen name="Browser" component={BrowserScreen} />
+            <Stack.Screen name="VideoPlayer" component={VideoPlayer} />
             <Stack.Screen
               name="MetricDetail"
               component={MetricDetailScreen}

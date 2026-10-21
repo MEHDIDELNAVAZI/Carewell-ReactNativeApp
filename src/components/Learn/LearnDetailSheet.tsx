@@ -227,7 +227,9 @@ export default function LearnDetailSheet({
             <TouchableOpacity
               style={styles.videoRow}
               onPress={() =>
-                navigation.navigate('Browser', { url: learn.content })
+                navigation.navigate('VideoPlayer', {
+                  uri: learn.content,
+                })
               }
             >
               <Text style={styles.videoLink}>

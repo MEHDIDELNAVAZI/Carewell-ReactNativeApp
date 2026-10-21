@@ -38,6 +38,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     return true
   }
 
+
+  func application(
+    _ application: UIApplication,
+    supportedInterfaceOrientationsFor window: UIWindow?
+    ) -> UIInterfaceOrientationMask {
+    return Orientation.getOrientation()
+     }
+
+  
+
   func enableHealthKitBackgroundDelivery() {
     guard HKHealthStore.isHealthDataAvailable() else { return }
 

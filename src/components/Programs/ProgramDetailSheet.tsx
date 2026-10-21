@@ -105,18 +105,20 @@ export default function ProgramDetailSheet({
     pendingUrlRef.current = url;
     bottomSheetRef.current?.close();
   };
-
   const handleSheetClose = useCallback(() => {
     onClose();
+
     if (pendingUrlRef.current) {
-      const url = pendingUrlRef.current;
+      const uri = pendingUrlRef.current;
       pendingUrlRef.current = null;
+
       requestAnimationFrame(() => {
-        navigation.navigate('Browser', { url });
+        navigation.navigate('VideoPlayer', {
+          uri,
+        });
       });
     }
   }, [onClose, navigation]);
-
   if (!assignment) return null;
 
   const { program, status, dates, notes, active_today, upcomingsessions } =
